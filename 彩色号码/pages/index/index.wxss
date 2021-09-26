@@ -1,0 +1,39 @@
+/**index.wxss**/
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.box2{
+  font-family: Cursive;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  
+}
+.title{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: blue;
+}
+.box{
+  margin: 40rpx;
+  padding: 40rpx;
+  border: 5px solid red;
+}

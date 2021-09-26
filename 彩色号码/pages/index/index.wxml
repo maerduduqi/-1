@@ -1,0 +1,13 @@
+
+<!--index.wxml-->
+<view class="box">
+ <view class="title">彩色号码</view>
+ <view>生成的彩色号码为：</view>
+ <view wx:for="{{rand}}">{{item}}</view>
+ <button type="primary" bindtap="newRand">重新生成</button>
+ <view class="box2">
+ <view>电科19-2-马鹏浩 
+       201923010219 
+       向前进</view>
+</view>
+</view>

@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class='box'>
+  <view class='title'>复利计算</view>
+  <view>
+  <input placeholder="请输入本金" type="number" bindblur="startNum"></input>
+  <input placeholder="请输入利率" type="number" bindblur="endNum"></input>
+  </view>
+  <view>五年后钱数为：{{suml}}</view>
+  <button type="primary" bindtap="calc">  计算</button>
+  <view class="box2">
+ <view>电科19-2-马鹏浩 
+       201923010219 
+       向前进</view>
+</view>
+</view>
